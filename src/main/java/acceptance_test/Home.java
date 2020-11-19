@@ -37,13 +37,16 @@ public class Home {
 		this.placment= placment;
 		this.type= type; 
         this.pets=pets;
-		this.mat= mat;this.amenities= amenities;
-
-		
-		
-		
+		this.mat= mat;this.amenities= amenities;	
 	}
 
+
+	
+
+	public Home(int id2, int area2, int numofBedroom, int numofBathrooms, int leaselenth, HomeMaterial material,
+			HomePlacement placement, HomePets pets2) {
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
 	public String toString() {
@@ -160,6 +163,14 @@ public class Home {
 
 	public void setAmen(List<HomeAmenities> amen) {
 		this.amenities = amenities;
+	}
+
+
+
+
+	public int getLeaselength() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 	

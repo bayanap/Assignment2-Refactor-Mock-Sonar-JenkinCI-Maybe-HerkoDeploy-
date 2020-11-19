@@ -12,8 +12,8 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
   plugin = {"html: target/cucumber/wikipedia.html"},
   monochrome = true,
   snippets = SnippetType.CAMELCASE,
-  glue = {"AcceptanceTest"},
-  strict = true 
+  glue = {"acceptance_Test"},
+  strict = true,tags="@byPrice" 
   )
  
 public class AcceptanceTest {

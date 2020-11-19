@@ -1,15 +1,8 @@
 package acceptance_test;
 
+public enum HomeMaterial {
+
+ 	STONE , WOOD,BRIKE;
 
 
-
-        
-public  class  HomeMaterial {
-    	 
-
-		String getBrick() {
-			// TODO Auto-generated method stub
-			return null;
-		}
-
- }
+}
